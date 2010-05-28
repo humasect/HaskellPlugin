@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840462670B45B1120025E538 /* Haskell.pbcompspec in Resources */ = {isa = PBXBuildFile; fileRef = 84A9D4180B40744F008FAF6D /* Haskell.pbcompspec */; };
+		840462750B45B1800025E538 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D5B49B7048680CD000E48DA /* Info.plist */; };
+		8404627D0B45B1B10025E538 /* Haskell.pblinkspec in Resources */ = {isa = PBXBuildFile; fileRef = 8404627C0B45B1B10025E538 /* Haskell.pblinkspec */; };
+		841B18550B55922B00B27DB9 /* Haskell.xctxtmacro in Copy Files (Specifications) */ = {isa = PBXBuildFile; fileRef = 841B184F0B55917C00B27DB9 /* Haskell.xctxtmacro */; };
+		842029F00B444DF700314B7C /* package.cabal in Copy Files (Cabal library) */ = {isa = PBXBuildFile; fileRef = 842029D40B444D3100314B7C /* package.cabal */; };
+		842029F10B444DF700314B7C /* Setup.lhs in Copy Files (Cabal library) */ = {isa = PBXBuildFile; fileRef = 842029D60B444D3100314B7C /* Setup.lhs */; };
+		842029F20B444DF700314B7C /* TemplateInfo.plist in Copy Files (Cabal library) */ = {isa = PBXBuildFile; fileRef = 842029D70B444D3100314B7C /* TemplateInfo.plist */; };
+		84720FD00B4E25D700F64F52 /* Module.hs in Copy Files (Haskell module (FFI)) */ = {isa = PBXBuildFile; fileRef = 84720FB60B4E245E00F64F52 /* Module.hs */; };
+		84720FD10B4E25D700F64F52 /* TemplateInfo.plist in Copy Files (Haskell module (FFI)) */ = {isa = PBXBuildFile; fileRef = 84720FB70B4E245E00F64F52 /* TemplateInfo.plist */; };
+		847A20970B42E5010007136B /* Haskell.pbbsetspec in Resources */ = {isa = PBXBuildFile; fileRef = 847A20960B42E5010007136B /* Haskell.pbbsetspec */; };
+		848B23B10B4E1AC700432E34 /* Module.hsc in Copy Files (Haskell C module) */ = {isa = PBXBuildFile; fileRef = 846D1B7B0B4E188F003C5712 /* Module.hsc */; };
+		848B23B20B4E1AC700432E34 /* TemplateInfo.plist in Copy Files (Haskell C module) */ = {isa = PBXBuildFile; fileRef = 846D1B7C0B4E188F003C5712 /* TemplateInfo.plist */; };
+		84A0DEFF0B4325EC001A7BF2 /* TemplateInfo.plist in Copy Files (Haskell module) */ = {isa = PBXBuildFile; fileRef = 84A0DEED0B43255B001A7BF2 /* TemplateInfo.plist */; };
+		84A0DF000B4325EC001A7BF2 /* Module.hs in Copy Files (Haskell module) */ = {isa = PBXBuildFile; fileRef = 84A0DEFD0B4325E1001A7BF2 /* Module.hs */; };
+		84CECF860B43165000263B7B /* 66-haskell-un_commentLines.pl in Copy Files (Scripts - Comments) */ = {isa = PBXBuildFile; fileRef = 84CECF720B4315BA00263B7B /* 66-haskell-un_commentLines.pl */; };
+		84D0C60F0B403AEA00B6E7E7 /* XCPBuildSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D0C6090B403AEA00B6E7E7 /* XCPBuildSystem.m */; };
+		84D0C6680B40450D00B6E7E7 /* HYLinkerSpecificationHaskell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D0C6670B40450D00B6E7E7 /* HYLinkerSpecificationHaskell.m */; };
+		84D0C6C80B40494700B6E7E7 /* DevToolsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D0C6C60B40494700B6E7E7 /* DevToolsCore.framework */; };
+		84D0C6C90B40494700B6E7E7 /* DevToolsSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D0C6C70B40494700B6E7E7 /* DevToolsSupport.framework */; };
+		84D0C72B0B4053FF00B6E7E7 /* Haskell.pbfilespec in Resources */ = {isa = PBXBuildFile; fileRef = 84D0C72A0B4053FF00B6E7E7 /* Haskell.pbfilespec */; };
+		84D0C7340B40555600B6E7E7 /* Haskell.pblangspec in Resources */ = {isa = PBXBuildFile; fileRef = 84D0C7330B40555600B6E7E7 /* Haskell.pblangspec */; };
+		84D0C7480B40566200B6E7E7 /* Haskell.xcbuildrules in Resources */ = {isa = PBXBuildFile; fileRef = 84D0C7470B40566200B6E7E7 /* Haskell.xcbuildrules */; };
+		84D0C7640B40593800B6E7E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84D0C7620B40593800B6E7E7 /* InfoPlist.strings */; };
+		84D0C76A0B40596600B6E7E7 /* org.glasgow.haskell.buildsettings.compiler-linker.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84D0C7680B40596600B6E7E7 /* org.glasgow.haskell.buildsettings.compiler-linker.strings */; };
+		84D0C7820B405A8400B6E7E7 /* HYHaskellCommandOutputParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D0C7810B405A8400B6E7E7 /* HYHaskellCommandOutputParser.m */; };
+		84D0C7870B405AAD00B6E7E7 /* HYCompilerSpecificationHaskell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D0C7860B405AAD00B6E7E7 /* HYCompilerSpecificationHaskell.m */; };
+		84D0C7A00B405C0200B6E7E7 /* Haskell.pbprodspec in Resources */ = {isa = PBXBuildFile; fileRef = 84D0C79F0B405C0200B6E7E7 /* Haskell.pbprodspec */; };
+		84D0C7AA0B405D2F00B6E7E7 /* HYHaskellProductType.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D0C7A90B405D2F00B6E7E7 /* HYHaskellProductType.m */; };
+		84D0C7B70B405DC200B6E7E7 /* Haskell.pbpackspec in Resources */ = {isa = PBXBuildFile; fileRef = 84D0C7B60B405DC200B6E7E7 /* Haskell.pbpackspec */; };
+		84D0C7BD0B405E2800B6E7E7 /* Haskell.pbRTSspec_ in Resources */ = {isa = PBXBuildFile; fileRef = 84D0C7BC0B405E2800B6E7E7 /* Haskell.pbRTSspec_ */; };
+		84D0C7DB0B405EF100B6E7E7 /* HaskellPlugin.xcplugin in Copy Files (Plugin) */ = {isa = PBXBuildFile; fileRef = 8D5B49B6048680CD000E48DA /* HaskellPlugin.xcplugin */; };
+		84D0C7E40B405F5300B6E7E7 /* Shell Tool.trgttmpl in Copy Files (Targets) */ = {isa = PBXBuildFile; fileRef = 84D0C7260B404EAD00B6E7E7 /* Shell Tool.trgttmpl */; };
+		84D0C7E50B405F5300B6E7E7 /* Static Library.trgttmpl in Copy Files (Targets) */ = {isa = PBXBuildFile; fileRef = 84D0C7270B404EAD00B6E7E7 /* Static Library.trgttmpl */; };
+		84D130480B4440E80038E424 /* Cabal.pblangspec in Resources */ = {isa = PBXBuildFile; fileRef = 84D130470B4440E80038E424 /* Cabal.pblangspec */; };
+		84D130900B4444E00038E424 /* package.cabal in Copy Files (Cabal executable) */ = {isa = PBXBuildFile; fileRef = 84D130510B4442380038E424 /* package.cabal */; };
+		84D130910B4444E00038E424 /* TemplateInfo.plist in Copy Files (Cabal executable) */ = {isa = PBXBuildFile; fileRef = 84D130770B4444230038E424 /* TemplateInfo.plist */; };
+		84D130920B4444E00038E424 /* Setup.lhs in Copy Files (Cabal executable) */ = {isa = PBXBuildFile; fileRef = 84D130850B4444870038E424 /* Setup.lhs */; };
+		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		841B18530B55921B00B27DB9 /* Copy Files (Specifications) */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "/Library/Application Support/Apple/Developer Tools/Specifications/";
+			dstSubfolderSpec = 0;
+			files = (
+				841B18550B55922B00B27DB9 /* Haskell.xctxtmacro in Copy Files (Specifications) */,
+			);
+			name = "Copy Files (Specifications)";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842029CA0B444D1100314B7C /* Copy Files (Cabal library) */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "/Library/Application Support/Apple/Developer Tools/File Templates/Haskell/Cabal library package.pbfiletemplate/";
+			dstSubfolderSpec = 0;
+			files = (
+				842029F00B444DF700314B7C /* package.cabal in Copy Files (Cabal library) */,
+				842029F10B444DF700314B7C /* Setup.lhs in Copy Files (Cabal library) */,
+				842029F20B444DF700314B7C /* TemplateInfo.plist in Copy Files (Cabal library) */,
+			);
+			name = "Copy Files (Cabal library)";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84720FCB0B4E25BF00F64F52 /* Copy Files (Haskell module (FFI)) */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "/Library/Application Support/Apple/Developer Tools/File Templates/Haskell/Haskell module (FFI).pbfiletemplate/";
+			dstSubfolderSpec = 0;
+			files = (
+				84720FD00B4E25D700F64F52 /* Module.hs in Copy Files (Haskell module (FFI)) */,
+				84720FD10B4E25D700F64F52 /* TemplateInfo.plist in Copy Files (Haskell module (FFI)) */,
+			);
+			name = "Copy Files (Haskell module (FFI))";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848B23AC0B4E1A8900432E34 /* Copy Files (Haskell C module) */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "/Library/Application Support/Apple/Developer Tools/File Templates/Haskell/Haskell C module.pbfiletemplate/";
+			dstSubfolderSpec = 0;
+			files = (
+				848B23B10B4E1AC700432E34 /* Module.hsc in Copy Files (Haskell C module) */,
+				848B23B20B4E1AC700432E34 /* TemplateInfo.plist in Copy Files (Haskell C module) */,
+			);
+			name = "Copy Files (Haskell C module)";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A0DEF00B43256C001A7BF2 /* Copy Files (Haskell module) */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "/Library/Application Support/Apple/Developer Tools/File Templates/Haskell/Haskell module.pbfiletemplate/";
+			dstSubfolderSpec = 0;
+			files = (
+				84A0DEFF0B4325EC001A7BF2 /* TemplateInfo.plist in Copy Files (Haskell module) */,
+				84A0DF000B4325EC001A7BF2 /* Module.hs in Copy Files (Haskell module) */,
+			);
+			name = "Copy Files (Haskell module)";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CECF780B43161200263B7B /* Copy Files (Scripts - Comments) */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "/Library/Application Support/Apple/Developer Tools/Scripts/10-User Scripts/30-Comments/";
+			dstSubfolderSpec = 0;
+			files = (
+				84CECF860B43165000263B7B /* 66-haskell-un_commentLines.pl in Copy Files (Scripts - Comments) */,
+			);
+			name = "Copy Files (Scripts - Comments)";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D0C7D00B405E8800B6E7E7 /* Copy Files (Plugin) */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "/Library/Application Support/Apple/Developer Tools/Plug-ins";
+			dstSubfolderSpec = 0;
+			files = (
+				84D0C7DB0B405EF100B6E7E7 /* HaskellPlugin.xcplugin in Copy Files (Plugin) */,
+			);
+			name = "Copy Files (Plugin)";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D0C7DC0B405F1700B6E7E7 /* Copy Files (Targets) */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "/Library/Application Support/Apple/Developer Tools/Target Templates/Haskell/";
+			dstSubfolderSpec = 0;
+			files = (
+				84D0C7E40B405F5300B6E7E7 /* Shell Tool.trgttmpl in Copy Files (Targets) */,
+				84D0C7E50B405F5300B6E7E7 /* Static Library.trgttmpl in Copy Files (Targets) */,
+			);
+			name = "Copy Files (Targets)";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D1308B0B4444C20038E424 /* Copy Files (Cabal executable) */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "/Library/Application Support/Apple/Developer Tools/File Templates/Haskell/Cabal executable package.pbfiletemplate/";
+			dstSubfolderSpec = 0;
+			files = (
+				84D130900B4444E00038E424 /* package.cabal in Copy Files (Cabal executable) */,
+				84D130910B4444E00038E424 /* TemplateInfo.plist in Copy Files (Cabal executable) */,
+				84D130920B4444E00038E424 /* Setup.lhs in Copy Files (Cabal executable) */,
+			);
+			name = "Copy Files (Cabal executable)";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF630370AF2F00C91783 /* HaskellPlugin_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HaskellPlugin_Prefix.pch; sourceTree = "<group>"; };
+		8404627C0B45B1B10025E538 /* Haskell.pblinkspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Haskell.pblinkspec; path = Resources/Haskell.pblinkspec; sourceTree = "<group>"; };
+		841B184F0B55917C00B27DB9 /* Haskell.xctxtmacro */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xctxtmacro; name = Haskell.xctxtmacro; path = Resources/Haskell.xctxtmacro; sourceTree = "<group>"; };
+		842029D40B444D3100314B7C /* package.cabal */ = {isa = PBXFileReference; fileEncoding = 4; languageSpecificationIdentifier = cabal; lastKnownFileType = text; path = package.cabal; sourceTree = "<group>"; };
+		842029D60B444D3100314B7C /* Setup.lhs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Setup.lhs; sourceTree = "<group>"; };
+		842029D70B444D3100314B7C /* TemplateInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		846D1B7B0B4E188F003C5712 /* Module.hsc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Module.hsc; sourceTree = "<group>"; };
+		846D1B7C0B4E188F003C5712 /* TemplateInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		84720FB60B4E245E00F64F52 /* Module.hs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Module.hs; sourceTree = "<group>"; };
+		84720FB70B4E245E00F64F52 /* TemplateInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		847A20960B42E5010007136B /* Haskell.pbbsetspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Haskell.pbbsetspec; path = Resources/Haskell.pbbsetspec; sourceTree = "<group>"; };
+		84A0DEED0B43255B001A7BF2 /* TemplateInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		84A0DEFD0B4325E1001A7BF2 /* Module.hs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Module.hs; sourceTree = "<group>"; };
+		84A9D4180B40744F008FAF6D /* Haskell.pbcompspec */ = {isa = PBXFileReference; fileEncoding = 4; languageSpecificationIdentifier = xctxtmacro; lastKnownFileType = text; name = Haskell.pbcompspec; path = Resources/Haskell.pbcompspec; sourceTree = "<group>"; };
+		84CECF720B4315BA00263B7B /* 66-haskell-un_commentLines.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = "66-haskell-un_commentLines.pl"; sourceTree = "<group>"; };
+		84D0C6080B403AEA00B6E7E7 /* XCPBuildSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XCPBuildSystem.h; path = Headers/XCPBuildSystem.h; sourceTree = "<group>"; };
+		84D0C6090B403AEA00B6E7E7 /* XCPBuildSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XCPBuildSystem.m; path = Headers/XCPBuildSystem.m; sourceTree = "<group>"; };
+		84D0C60A0B403AEA00B6E7E7 /* XCPDependencyGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XCPDependencyGraph.h; path = Headers/XCPDependencyGraph.h; sourceTree = "<group>"; };
+		84D0C60B0B403AEA00B6E7E7 /* XCPOutputParsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XCPOutputParsing.h; path = Headers/XCPOutputParsing.h; sourceTree = "<group>"; };
+		84D0C60C0B403AEA00B6E7E7 /* XCPSourceParsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XCPSourceParsing.h; path = Headers/XCPSourceParsing.h; sourceTree = "<group>"; };
+		84D0C60D0B403AEA00B6E7E7 /* XCPSpecifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XCPSpecifications.h; path = Headers/XCPSpecifications.h; sourceTree = "<group>"; };
+		84D0C60E0B403AEA00B6E7E7 /* XCPSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XCPSupport.h; path = Headers/XCPSupport.h; sourceTree = "<group>"; };
+		84D0C6660B40450D00B6E7E7 /* HYLinkerSpecificationHaskell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYLinkerSpecificationHaskell.h; path = Sources/HYLinkerSpecificationHaskell.h; sourceTree = "<group>"; };
+		84D0C6670B40450D00B6E7E7 /* HYLinkerSpecificationHaskell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYLinkerSpecificationHaskell.m; path = Sources/HYLinkerSpecificationHaskell.m; sourceTree = "<group>"; };
+		84D0C6C60B40494700B6E7E7 /* DevToolsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DevToolsCore.framework; path = /System/Library/PrivateFrameworks/DevToolsCore.framework; sourceTree = "<absolute>"; };
+		84D0C6C70B40494700B6E7E7 /* DevToolsSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DevToolsSupport.framework; path = /System/Library/PrivateFrameworks/DevToolsSupport.framework; sourceTree = "<absolute>"; };
+		84D0C7260B404EAD00B6E7E7 /* Shell Tool.trgttmpl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Shell Tool.trgttmpl"; sourceTree = "<group>"; };
+		84D0C7270B404EAD00B6E7E7 /* Static Library.trgttmpl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Static Library.trgttmpl"; sourceTree = "<group>"; };
+		84D0C72A0B4053FF00B6E7E7 /* Haskell.pbfilespec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.pbfilespec; name = Haskell.pbfilespec; path = Resources/Haskell.pbfilespec; sourceTree = "<group>"; };
+		84D0C7330B40555600B6E7E7 /* Haskell.pblangspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.pblangspec; name = Haskell.pblangspec; path = Resources/Haskell.pblangspec; sourceTree = "<group>"; };
+		84D0C7470B40566200B6E7E7 /* Haskell.xcbuildrules */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Haskell.xcbuildrules; path = Resources/Haskell.xcbuildrules; sourceTree = "<group>"; };
+		84D0C7630B40593800B6E7E7 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = Resources/English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84D0C7690B40596600B6E7E7 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = "Resources/English.lproj/org.glasgow.haskell.buildsettings.compiler-linker.strings"; sourceTree = "<group>"; };
+		84D0C7800B405A8400B6E7E7 /* HYHaskellCommandOutputParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYHaskellCommandOutputParser.h; path = Sources/HYHaskellCommandOutputParser.h; sourceTree = "<group>"; };
+		84D0C7810B405A8400B6E7E7 /* HYHaskellCommandOutputParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYHaskellCommandOutputParser.m; path = Sources/HYHaskellCommandOutputParser.m; sourceTree = "<group>"; };
+		84D0C7850B405AAD00B6E7E7 /* HYCompilerSpecificationHaskell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYCompilerSpecificationHaskell.h; path = Sources/HYCompilerSpecificationHaskell.h; sourceTree = "<group>"; };
+		84D0C7860B405AAD00B6E7E7 /* HYCompilerSpecificationHaskell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYCompilerSpecificationHaskell.m; path = Sources/HYCompilerSpecificationHaskell.m; sourceTree = "<group>"; };
+		84D0C79F0B405C0200B6E7E7 /* Haskell.pbprodspec */ = {isa = PBXFileReference; fileEncoding = 4; languageSpecificationIdentifier = xctxtmacro; lastKnownFileType = text; name = Haskell.pbprodspec; path = Resources/Haskell.pbprodspec; sourceTree = "<group>"; };
+		84D0C7A80B405D2F00B6E7E7 /* HYHaskellProductType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYHaskellProductType.h; path = Sources/HYHaskellProductType.h; sourceTree = "<group>"; };
+		84D0C7A90B405D2F00B6E7E7 /* HYHaskellProductType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYHaskellProductType.m; path = Sources/HYHaskellProductType.m; sourceTree = "<group>"; };
+		84D0C7B60B405DC200B6E7E7 /* Haskell.pbpackspec */ = {isa = PBXFileReference; fileEncoding = 4; languageSpecificationIdentifier = xctxtmacro; lastKnownFileType = text; name = Haskell.pbpackspec; path = Resources/Haskell.pbpackspec; sourceTree = "<group>"; };
+		84D0C7BC0B405E2800B6E7E7 /* Haskell.pbRTSspec_ */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Haskell.pbRTSspec_; path = Resources/Haskell.pbRTSspec_; sourceTree = "<group>"; };
+		84D130470B4440E80038E424 /* Cabal.pblangspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.pblangspec; name = Cabal.pblangspec; path = Resources/Cabal.pblangspec; sourceTree = "<group>"; };
+		84D130510B4442380038E424 /* package.cabal */ = {isa = PBXFileReference; fileEncoding = 4; languageSpecificationIdentifier = cabal; lastKnownFileType = text; name = package.cabal; path = "Cabal executable package.pbfiletemplate/package.cabal"; sourceTree = "<group>"; };
+		84D130770B4444230038E424 /* TemplateInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; name = TemplateInfo.plist; path = "Cabal executable package.pbfiletemplate/TemplateInfo.plist"; sourceTree = "<group>"; };
+		84D130850B4444870038E424 /* Setup.lhs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Setup.lhs; path = "Cabal executable package.pbfiletemplate/Setup.lhs"; sourceTree = "<group>"; };
+		84E5D1710B464B8F00EC3399 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* HaskellPlugin.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaskellPlugin.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
+				84D0C6C80B40494700B6E7E7 /* DevToolsCore.framework in Frameworks */,
+				84D0C6C90B40494700B6E7E7 /* DevToolsSupport.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* HaskellPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				84D0C7250B404EAD00B6E7E7 /* Templates */,
+				84D0C66B0B40454100B6E7E7 /* Headers */,
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32C88E010371C26100C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = HaskellPlugin;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84D130470B4440E80038E424 /* Cabal.pblangspec */,
+				847A20960B42E5010007136B /* Haskell.pbbsetspec */,
+				84D0C72A0B4053FF00B6E7E7 /* Haskell.pbfilespec */,
+				84A9D4180B40744F008FAF6D /* Haskell.pbcompspec */,
+				84D0C7330B40555600B6E7E7 /* Haskell.pblangspec */,
+				84D0C7470B40566200B6E7E7 /* Haskell.xcbuildrules */,
+				84D0C7B60B405DC200B6E7E7 /* Haskell.pbpackspec */,
+				84D0C79F0B405C0200B6E7E7 /* Haskell.pbprodspec */,
+				84D0C7BC0B405E2800B6E7E7 /* Haskell.pbRTSspec_ */,
+				8404627C0B45B1B10025E538 /* Haskell.pblinkspec */,
+				841B184F0B55917C00B27DB9 /* Haskell.xctxtmacro */,
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+				84D0C7680B40596600B6E7E7 /* org.glasgow.haskell.buildsettings.compiler-linker.strings */,
+				84D0C7620B40593800B6E7E7 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				84D0C6660B40450D00B6E7E7 /* HYLinkerSpecificationHaskell.h */,
+				84D0C6670B40450D00B6E7E7 /* HYLinkerSpecificationHaskell.m */,
+				84D0C7850B405AAD00B6E7E7 /* HYCompilerSpecificationHaskell.h */,
+				84D0C7860B405AAD00B6E7E7 /* HYCompilerSpecificationHaskell.m */,
+				84D0C7A80B405D2F00B6E7E7 /* HYHaskellProductType.h */,
+				84D0C7A90B405D2F00B6E7E7 /* HYHaskellProductType.m */,
+				84D0C7800B405A8400B6E7E7 /* HYHaskellCommandOutputParser.h */,
+				84D0C7810B405A8400B6E7E7 /* HYHaskellCommandOutputParser.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84D0C6C60B40494700B6E7E7 /* DevToolsCore.framework */,
+				84D0C6C70B40494700B6E7E7 /* DevToolsSupport.framework */,
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+				D2F7E65807B2D6F200F64583 /* CoreData.framework */,
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* HaskellPlugin.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF630370AF2F00C91783 /* HaskellPlugin_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		842029D30B444D3100314B7C /* Cabal library package.pbfiletemplate */ = {
+			isa = PBXGroup;
+			children = (
+				842029D40B444D3100314B7C /* package.cabal */,
+				842029D60B444D3100314B7C /* Setup.lhs */,
+				842029D70B444D3100314B7C /* TemplateInfo.plist */,
+			);
+			path = "Cabal library package.pbfiletemplate";
+			sourceTree = "<group>";
+		};
+		846D1B7A0B4E188F003C5712 /* Haskell C module.pbfiletemplate */ = {
+			isa = PBXGroup;
+			children = (
+				846D1B7B0B4E188F003C5712 /* Module.hsc */,
+				846D1B7C0B4E188F003C5712 /* TemplateInfo.plist */,
+			);
+			path = "Haskell C module.pbfiletemplate";
+			sourceTree = "<group>";
+		};
+		84720FB50B4E245E00F64F52 /* Haskell module (FFI).pbfiletemplate */ = {
+			isa = PBXGroup;
+			children = (
+				84720FB60B4E245E00F64F52 /* Module.hs */,
+				84720FB70B4E245E00F64F52 /* TemplateInfo.plist */,
+			);
+			path = "Haskell module (FFI).pbfiletemplate";
+			sourceTree = "<group>";
+		};
+		84A0DEEC0B43255B001A7BF2 /* Haskell module.pbfiletemplate */ = {
+			isa = PBXGroup;
+			children = (
+				84A0DEED0B43255B001A7BF2 /* TemplateInfo.plist */,
+				84A0DEFD0B4325E1001A7BF2 /* Module.hs */,
+			);
+			path = "Haskell module.pbfiletemplate";
+			sourceTree = "<group>";
+		};
+		84D0C66B0B40454100B6E7E7 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				84D0C6080B403AEA00B6E7E7 /* XCPBuildSystem.h */,
+				84D0C6090B403AEA00B6E7E7 /* XCPBuildSystem.m */,
+				84D0C60A0B403AEA00B6E7E7 /* XCPDependencyGraph.h */,
+				84D0C60B0B403AEA00B6E7E7 /* XCPOutputParsing.h */,
+				84D0C60C0B403AEA00B6E7E7 /* XCPSourceParsing.h */,
+				84D0C60D0B403AEA00B6E7E7 /* XCPSpecifications.h */,
+				84D0C60E0B403AEA00B6E7E7 /* XCPSupport.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		84D0C7250B404EAD00B6E7E7 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				84720FB50B4E245E00F64F52 /* Haskell module (FFI).pbfiletemplate */,
+				846D1B7A0B4E188F003C5712 /* Haskell C module.pbfiletemplate */,
+				842029D30B444D3100314B7C /* Cabal library package.pbfiletemplate */,
+				84D130530B4442440038E424 /* Cabal executable package.pbfiletemplate */,
+				84A0DEEC0B43255B001A7BF2 /* Haskell module.pbfiletemplate */,
+				84D0C7260B404EAD00B6E7E7 /* Shell Tool.trgttmpl */,
+				84D0C7270B404EAD00B6E7E7 /* Static Library.trgttmpl */,
+				84CECF720B4315BA00263B7B /* 66-haskell-un_commentLines.pl */,
+				84E5D1710B464B8F00EC3399 /* TODO */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		84D130530B4442440038E424 /* Cabal executable package.pbfiletemplate */ = {
+			isa = PBXGroup;
+			children = (
+				84D130510B4442380038E424 /* package.cabal */,
+				84D130770B4444230038E424 /* TemplateInfo.plist */,
+				84D130850B4444870038E424 /* Setup.lhs */,
+			);
+			name = "Cabal executable package.pbfiletemplate";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* HaskellPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "HaskellPlugin" */;
+			buildPhases = (
+				8D5B49AF048680CD000E48DA /* Resources */,
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+				84D0C7D00B405E8800B6E7E7 /* Copy Files (Plugin) */,
+				84D0C7DC0B405F1700B6E7E7 /* Copy Files (Targets) */,
+				84CECF780B43161200263B7B /* Copy Files (Scripts - Comments) */,
+				841B18530B55921B00B27DB9 /* Copy Files (Specifications) */,
+				84A0DEF00B43256C001A7BF2 /* Copy Files (Haskell module) */,
+				84D1308B0B4444C20038E424 /* Copy Files (Cabal executable) */,
+				842029CA0B444D1100314B7C /* Copy Files (Cabal library) */,
+				848B23AC0B4E1A8900432E34 /* Copy Files (Haskell C module) */,
+				84720FCB0B4E25BF00F64F52 /* Copy Files (Haskell module (FFI)) */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HaskellPlugin;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = HaskellPlugin;
+			productReference = 8D5B49B6048680CD000E48DA /* HaskellPlugin.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "HaskellPlugin" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* HaskellPlugin */;
+			projectDirPath = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* HaskellPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D0C7640B40593800B6E7E7 /* InfoPlist.strings in Resources */,
+				84D0C76A0B40596600B6E7E7 /* org.glasgow.haskell.buildsettings.compiler-linker.strings in Resources */,
+				840462750B45B1800025E538 /* Info.plist in Resources */,
+				84D0C72B0B4053FF00B6E7E7 /* Haskell.pbfilespec in Resources */,
+				84D0C7340B40555600B6E7E7 /* Haskell.pblangspec in Resources */,
+				84D0C7480B40566200B6E7E7 /* Haskell.xcbuildrules in Resources */,
+				840462670B45B1120025E538 /* Haskell.pbcompspec in Resources */,
+				84D0C7A00B405C0200B6E7E7 /* Haskell.pbprodspec in Resources */,
+				84D0C7B70B405DC200B6E7E7 /* Haskell.pbpackspec in Resources */,
+				84D0C7BD0B405E2800B6E7E7 /* Haskell.pbRTSspec_ in Resources */,
+				847A20970B42E5010007136B /* Haskell.pbbsetspec in Resources */,
+				84D130480B4440E80038E424 /* Cabal.pblangspec in Resources */,
+				8404627D0B45B1B10025E538 /* Haskell.pblinkspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D0C60F0B403AEA00B6E7E7 /* XCPBuildSystem.m in Sources */,
+				84D0C6680B40450D00B6E7E7 /* HYLinkerSpecificationHaskell.m in Sources */,
+				84D0C7820B405A8400B6E7E7 /* HYHaskellCommandOutputParser.m in Sources */,
+				84D0C7870B405AAD00B6E7E7 /* HYCompilerSpecificationHaskell.m in Sources */,
+				84D0C7AA0B405D2F00B6E7E7 /* HYHaskellProductType.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84D0C7620B40593800B6E7E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D0C7630B40593800B6E7E7 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84D0C7680B40596600B6E7E7 /* org.glasgow.haskell.buildsettings.compiler-linker.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D0C7690B40596600B6E7E7 /* English */,
+			);
+			name = "org.glasgow.haskell.buildsettings.compiler-linker.strings";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB913B08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HaskellPlugin_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = HaskellPlugin;
+				WRAPPER_EXTENSION = xcplugin;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB913C08733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HaskellPlugin_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = HaskellPlugin;
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+		1DEB913F08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		1DEB914008733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "HaskellPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913B08733D840010E9CD /* Debug */,
+				1DEB913C08733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "HaskellPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913F08733D840010E9CD /* Debug */,
+				1DEB914008733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

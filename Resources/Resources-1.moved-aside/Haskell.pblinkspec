@@ -1,0 +1,37 @@
+/*
+	Haskell.pblinkspec - HaskellPlugin
+	Copyright (c) 2006 Lyndon Tremblay <humasect@gmail.com>
+	Distributed under the GPL license.
+*/
+(
+{
+	Identifier = org.hoovy.haskell.linker;
+	Class = HYLinkerSpecificationHaskell;
+	Name = "Haskell Linker";
+	Description = "Haskell Linker";
+	Version = "Default";
+	Vendor = "Hoovy";
+	BinaryFormats = ("mach-o");
+	Architectures = (ppc, ppc64, i386, x86_x64);
+	ExecPath = "/usr/local/bin/ghc";
+	InputFileTypes = (compiled.haskell.objfile, compiled.mach-o.objfile);
+	CommandOutputParser = HYHaskellCommandOutputParser;
+
+	Options = {
+		GHC_THREADED = {
+			Type = bool;
+			CommandLineArgs = { NO = (); YES = (-threaded); };
+		};
+		
+		GHC_NUM_THREADS = {
+			Type = int;
+			CommandLineArgs = ("+RTS -N $(value) -RTS");
+		};
+		
+		GHC_PACKAGES = {
+			Type = stringlist;
+			CommandLineArgs = (-package, "$(value)");
+		};
+	}
+}
+)

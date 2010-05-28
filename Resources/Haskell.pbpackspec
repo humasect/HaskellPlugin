@@ -1,0 +1,44 @@
+/*
+	Haskell.pbpackspec - HaskellPlugin
+	Copyright 2006-2007 Lyndon Tremblay.
+	Distributed under the GPL licence.
+*/
+(
+	// Haskell executable
+	{
+		Identifier = org.glasgow.haskell.package-type.executable;
+		Name = "Haskell Executable";
+		Description = "Haskell executable";
+		DefaultBuildSettings = {
+			PACKAGE_TYPE = EXECUTABLE;
+			EXECUTABLE_PREFIX = "";
+			EXECUTABLE_SUFFIX = "";
+			EXECUTABLE_NAME = "$(EXECUTABLE_PREFIX)$(PRODUCT_NAME)$(EXECUTABLE_VARIANT_SUFFIX)$(EXECUTABLE_SUFFIX)";
+			EXECUTABLE_PATH = "$(EXECUTABLE_NAME)";
+		};
+		ProductReference = {
+			FileType = compiled.haskell.executable;
+			Name = "$(EXECUTABLE_NAME)";   // always assumed to be relative to $(BUILD_DIR)
+			IsLaunchable = YES;
+		};
+	},
+
+	// OCaml bytecode library
+	{
+		Identifier = org.glasgow.haskell.package-type.library;
+		Name = "Haskell Library";
+		Description = "Haskell library";
+		DefaultBuildSettings = {
+			PACKAGE_TYPE = EXECUTABLE;
+			EXECUTABLE_PREFIX = "";
+			EXECUTABLE_SUFFIX = ".a";
+			EXECUTABLE_NAME = "$(EXECUTABLE_PREFIX)$(PRODUCT_NAME)$(EXECUTABLE_VARIANT_SUFFIX)$(EXECUTABLE_SUFFIX)";
+			EXECUTABLE_PATH = "$(EXECUTABLE_NAME)";
+		};
+		ProductReference = {
+			FileType = compiled.haskell.library;
+			Name = "$(EXECUTABLE_NAME)";   // always assumed to be relative to $(BUILD_DIR)
+			IsLaunchable = NO;
+		};
+	}
+)

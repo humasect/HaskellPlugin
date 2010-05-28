@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeTarget = 8D5B49AC048680CD000E48DA /* HaskellPlugin */;
+		addToTargets = (
+		);
+		breakpoints = (
+		);
+		breakpointsGroup = 84D0C7030B404D0A00B6E7E7 /* XCBreakpointsBucket */;
+		codeSenseManager = 84D0C6000B403A2200B6E7E7 /* Code sense */;
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					210,
+					20,
+					110,
+					109,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					200,
+					142,
+					20,
+					48.1626,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 200325252;
+			PBXWorkspaceStateSaveDate = 200325252;
+		};
+		sourceControlManager = 84D0C5FF0B403A2200B6E7E7 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	32DBCF630370AF2F00C91783 /* HaskellPlugin_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {664, 560}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {664, 560}}";
+			sepNavWindowFrame = "{{15, 140}, {703, 633}}";
+		};
+	};
+	8404627C0B45B1B10025E538 /* Haskell.pblinkspec */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {704, 448}}";
+			sepNavSelRange = "{262, 7}";
+			sepNavVisRect = "{{0, 0}, {704, 440}}";
+			sepNavWindowFrame = "{{208, 137}, {743, 513}}";
+		};
+	};
+	841B184F0B55917C00B27DB9 /* Haskell.xctxtmacro */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {608, 1610}}";
+			sepNavSelRange = "{476, 0}";
+			sepNavVisRect = "{{0, 124}, {505, 574}}";
+			sepNavWindowFrame = "{{580, 65}, {544, 647}}";
+		};
+	};
+	842029D40B444D3100314B7C /* package.cabal */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {611, 484}}";
+			sepNavSelRange = "{458, 0}";
+			sepNavVisRect = "{{0, 0}, {611, 484}}";
+			sepNavWindowFrame = "{{531, 58}, {650, 557}}";
+		};
+	};
+	846D1B7B0B4E188F003C5712 /* Module.hsc */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {578, 453}}";
+			sepNavSelRange = "{13, 0}";
+			sepNavVisRect = "{{0, 0}, {578, 453}}";
+			sepNavWindowFrame = "{{15, 247}, {617, 526}}";
+		};
+	};
+	846D1B7C0B4E188F003C5712 /* TemplateInfo.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {578, 453}}";
+			sepNavSelRange = "{121, 0}";
+			sepNavVisRect = "{{0, 0}, {578, 453}}";
+			sepNavWindowFrame = "{{130, 142}, {617, 526}}";
+		};
+	};
+	84720FB60B4E245E00F64F52 /* Module.hs */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {578, 453}}";
+			sepNavSelRange = "{14, 0}";
+			sepNavVisRect = "{{0, 0}, {578, 453}}";
+			sepNavWindowFrame = "{{61, 205}, {617, 526}}";
+		};
+	};
+	84720FB70B4E245E00F64F52 /* TemplateInfo.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {578, 453}}";
+			sepNavSelRange = "{147, 0}";
+			sepNavVisRect = "{{0, 0}, {578, 453}}";
+			sepNavWindowFrame = "{{84, 184}, {617, 526}}";
+		};
+	};
+	847A20960B42E5010007136B /* Haskell.pbbsetspec */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {611, 484}}";
+			sepNavSelRange = "{868, 0}";
+			sepNavVisRect = "{{0, 0}, {611, 484}}";
+			sepNavWindowFrame = "{{578, 162}, {650, 557}}";
+		};
+	};
+	84A0DEED0B43255B001A7BF2 /* TemplateInfo.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {611, 484}}";
+			sepNavSelRange = "{32, 0}";
+			sepNavVisRect = "{{0, 0}, {611, 484}}";
+			sepNavWindowFrame = "{{199, 48}, {650, 557}}";
+		};
+	};
+	84A0DEFD0B4325E1001A7BF2 /* Module.hs */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {611, 484}}";
+			sepNavSelRange = "{2, 0}";
+			sepNavVisRect = "{{0, 0}, {611, 484}}";
+			sepNavWindowFrame = "{{594, 209}, {650, 557}}";
+		};
+	};
+	84A9D4180B40744F008FAF6D /* Haskell.pbcompspec */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {611, 658}}";
+			sepNavSelRange = "{498, 0}";
+			sepNavVisRect = "{{0, 0}, {611, 484}}";
+			sepNavWindowFrame = "{{289, 153}, {650, 557}}";
+		};
+	};
+	84CECF720B4315BA00263B7B /* 66-haskell-un_commentLines.pl */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {611, 686}}";
+			sepNavSelRange = "{425, 0}";
+			sepNavVisRect = "{{0, 0}, {611, 484}}";
+			sepNavWindowFrame = "{{61, 174}, {650, 557}}";
+		};
+	};
+	84D0C5FF0B403A2200B6E7E7 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	84D0C6000B403A2200B6E7E7 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	84D0C6080B403AEA00B6E7E7 /* XCPBuildSystem.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {920, 2856}}";
+			sepNavSelRange = "{6957, 6}";
+			sepNavVisRect = "{{0, 2412}, {916, 444}}";
+			sepNavWindowFrame = "{{222, 67}, {955, 517}}";
+		};
+	};
+	84D0C6090B403AEA00B6E7E7 /* XCPBuildSystem.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {806, 1694}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {520, 136}}";
+		};
+	};
+	84D0C60A0B403AEA00B6E7E7 /* XCPDependencyGraph.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {916, 1792}}";
+			sepNavSelRange = "{242, 0}";
+			sepNavVisRect = "{{0, 1348}, {916, 444}}";
+			sepNavWindowFrame = "{{176, 109}, {955, 517}}";
+		};
+	};
+	84D0C60D0B403AEA00B6E7E7 /* XCPSpecifications.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1412, 7266}}";
+			sepNavSelRange = "{4837, 20}";
+			sepNavVisRect = "{{0, 1577}, {916, 444}}";
+			sepNavWindowFrame = "{{245, 46}, {955, 517}}";
+		};
+	};
+	84D0C60E0B403AEA00B6E7E7 /* XCPSupport.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1262, 3248}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 2542}, {916, 444}}";
+			sepNavWindowFrame = "{{199, 88}, {955, 517}}";
+		};
+	};
+	84D0C6660B40450D00B6E7E7 /* HYLinkerSpecificationHaskell.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {611, 484}}";
+			sepNavSelRange = "{263, 0}";
+			sepNavVisRect = "{{0, 0}, {611, 484}}";
+			sepNavWindowFrame = "{{38, 195}, {650, 557}}";
+		};
+	};
+	84D0C6670B40450D00B6E7E7 /* HYLinkerSpecificationHaskell.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {742, 1596}}";
+			sepNavSelRange = "{1711, 0}";
+			sepNavVisRect = "{{0, 783}, {742, 542}}";
+			sepNavWindowFrame = "{{254, 50}, {781, 615}}";
+		};
+	};
+	84D0C7030B404D0A00B6E7E7 /* XCBreakpointsBucket */ = {
+		isa = XCBreakpointsBucket;
+		name = "Project Breakpoints";
+		objects = (
+		);
+	};
+	84D0C7260B404EAD00B6E7E7 /* Shell Tool.trgttmpl */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {611, 484}}";
+			sepNavSelRange = "{46, 0}";
+			sepNavVisRect = "{{0, 0}, {611, 484}}";
+			sepNavWindowFrame = "{{380, -13}, {650, 557}}";
+		};
+	};
+	84D0C7270B404EAD00B6E7E7 /* Static Library.trgttmpl */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {611, 484}}";
+			sepNavSelRange = "{46, 0}";
+			sepNavVisRect = "{{0, 0}, {611, 484}}";
+			sepNavWindowFrame = "{{61, 174}, {650, 557}}";
+		};
+	};
+	84D0C72A0B4053FF00B6E7E7 /* Haskell.pbfilespec */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {611, 1036}}";
+			sepNavSelRange = "{435, 0}";
+			sepNavVisRect = "{{0, 74}, {611, 484}}";
+			sepNavWindowFrame = "{{93, 64}, {650, 557}}";
+		};
+	};
+	84D0C7330B40555600B6E7E7 /* Haskell.pblangspec */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {611, 1862}}";
+			sepNavSelRange = "{734, 0}";
+			sepNavVisRect = "{{0, 1378}, {611, 484}}";
+			sepNavWindowFrame = "{{268, 71}, {650, 557}}";
+		};
+	};
+	84D0C7470B40566200B6E7E7 /* Haskell.xcbuildrules */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {611, 484}}";
+			sepNavSelRange = "{244, 0}";
+			sepNavVisRect = "{{0, 0}, {611, 484}}";
+			sepNavWindowFrame = "{{563, 167}, {650, 557}}";
+		};
+	};
+	84D0C7630B40593800B6E7E7 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {686, 484}}";
+			sepNavSelRange = "{204, 0}";
+			sepNavVisRect = "{{0, 0}, {611, 484}}";
+			sepNavWindowFrame = "{{15, 216}, {650, 557}}";
+		};
+	};
+	84D0C7690B40596600B6E7E7 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2306, 588}}";
+			sepNavSelRange = "{1369, 0}";
+			sepNavVisRect = "{{0, 0}, {611, 484}}";
+			sepNavWindowFrame = "{{287, 195}, {650, 557}}";
+		};
+	};
+	84D0C7800B405A8400B6E7E7 /* HYHaskellCommandOutputParser.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {611, 484}}";
+			sepNavSelRange = "{350, 0}";
+			sepNavVisRect = "{{0, 0}, {611, 484}}";
+			sepNavWindowFrame = "{{524, 179}, {650, 557}}";
+		};
+	};
+	84D0C7810B405A8400B6E7E7 /* HYHaskellCommandOutputParser.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {782, 1848}}";
+			sepNavSelRange = "{438, 0}";
+			sepNavVisRect = "{{0, 0}, {611, 484}}";
+			sepNavWindowFrame = "{{249, 91}, {650, 557}}";
+		};
+	};
+	84D0C7850B405AAD00B6E7E7 /* HYCompilerSpecificationHaskell.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {664, 560}}";
+			sepNavSelRange = "{166, 30}";
+			sepNavVisRect = "{{0, 0}, {664, 560}}";
+			sepNavWindowFrame = "{{38, 119}, {703, 633}}";
+		};
+	};
+	84D0C7860B405AAD00B6E7E7 /* HYCompilerSpecificationHaskell.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1004, 1694}}";
+			sepNavSelRange = "{1832, 0}";
+			sepNavVisRect = "{{0, 159}, {611, 484}}";
+			sepNavWindowFrame = "{{270, 187}, {650, 557}}";
+		};
+	};
+	84D0C79F0B405C0200B6E7E7 /* Haskell.pbprodspec */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {611, 854}}";
+			sepNavSelRange = "{281, 0}";
+			sepNavVisRect = "{{0, 28}, {611, 484}}";
+			sepNavWindowFrame = "{{290, 177}, {650, 557}}";
+		};
+	};
+	84D0C7A80B405D2F00B6E7E7 /* HYHaskellProductType.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {692, 484}}";
+			sepNavSelRange = "{408, 0}";
+			sepNavVisRect = "{{0, 0}, {611, 484}}";
+			sepNavWindowFrame = "{{38, 195}, {650, 557}}";
+		};
+	};
+	84D0C7A90B405D2F00B6E7E7 /* HYHaskellProductType.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {698, 484}}";
+			sepNavSelRange = "{969, 0}";
+			sepNavVisRect = "{{53, 0}, {611, 484}}";
+			sepNavWindowFrame = "{{546, 118}, {650, 557}}";
+		};
+	};
+	84D0C7B60B405DC200B6E7E7 /* Haskell.pbpackspec */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {716, 630}}";
+			sepNavSelRange = "{143, 0}";
+			sepNavVisRect = "{{0, 0}, {611, 484}}";
+			sepNavWindowFrame = "{{307, 157}, {650, 557}}";
+		};
+	};
+	84D0C7BC0B405E2800B6E7E7 /* Haskell.pbRTSspec_ */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {611, 484}}";
+			sepNavSelRange = "{196, 0}";
+			sepNavVisRect = "{{0, 0}, {611, 484}}";
+			sepNavWindowFrame = "{{153, 90}, {650, 557}}";
+		};
+	};
+	84D130470B4440E80038E424 /* Cabal.pblangspec */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {611, 924}}";
+			sepNavSelRange = "{324, 0}";
+			sepNavVisRect = "{{0, 0}, {611, 484}}";
+			sepNavWindowFrame = "{{615, 197}, {650, 557}}";
+		};
+	};
+	84D130510B4442380038E424 /* package.cabal */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {611, 484}}";
+			sepNavSelRange = "{433, 0}";
+			sepNavVisRect = "{{0, 0}, {611, 484}}";
+			sepNavWindowFrame = "{{646, 3}, {650, 557}}";
+		};
+	};
+	84D130770B4444230038E424 /* TemplateInfo.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {611, 484}}";
+			sepNavSelRange = "{148, 0}";
+			sepNavVisRect = "{{0, 0}, {611, 484}}";
+			sepNavWindowFrame = "{{395, 102}, {650, 557}}";
+		};
+	};
+	84D130850B4444870038E424 /* Setup.lhs */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {611, 484}}";
+			sepNavSelRange = "{76, 0}";
+			sepNavVisRect = "{{0, 0}, {611, 484}}";
+			sepNavWindowFrame = "{{464, 168}, {650, 557}}";
+		};
+	};
+	84E5D1710B464B8F00EC3399 /* TODO */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {916, 444}}";
+			sepNavSelRange = "{204, 0}";
+			sepNavVisRect = "{{0, 0}, {916, 444}}";
+			sepNavWindowFrame = "{{38, 235}, {955, 517}}";
+		};
+	};
+	8D5B49AC048680CD000E48DA /* HaskellPlugin */ = {
+		activeExec = 0;
+	};
+	8D5B49B7048680CD000E48DA /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {686, 484}}";
+			sepNavSelRange = "{391, 0}";
+			sepNavVisRect = "{{0, 0}, {611, 484}}";
+			sepNavWindowFrame = "{{540, 69}, {650, 557}}";
+		};
+	};
+}

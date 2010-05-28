@@ -1,0 +1,114 @@
+(
+	{
+		Identifier = haskell;
+		Name = "Haskell";
+		IsMenu = YES;
+		DefaultSettings = {
+			PreExpressionsSpacing = " ";
+			InExpressionsSpacing = "";
+			CaseStatementSpacing = "";
+			BlockSeparator = " ";
+			PostBlockSeparator = "\n";
+		};
+		ComputerLanguages = ( haskell );
+	},
+	
+	//////////////////////////
+	
+	{
+		Identifier = haskell.ffi;
+		BasedOn = haskell;
+		IsMenuItem = NO;
+		Name = "Foreign Function Interface Declaration";
+		TextString = "foreign $(Way) ccall unsafe \"<#!nm!#>\" <#!nm!#> :: <#arg1#> -> IO <#()#>";
+	},
+	
+	{
+		Identifier = haskell.ffi.import;
+		BasedOn = haskell.ffi;
+		Name = "FFI Import";
+		IsMenuItem = YES;
+		Way = "import";
+		CompletionPrefix = "fimp";
+	},
+	{
+		Identifier = haskell.ffi.export;
+		BasedOn = haskell.ffi;
+		Name = "FFI Export";
+		IsMenuItem = YES;
+		Way = "export";
+		CompletionPrefix = "fexp";
+	},
+	
+	//////////////////////////
+	
+	{
+		Identifier = haskell.let;
+		BasedOn = haskell;
+		IsMenuItem = YES;
+		Name = "Let Statement";
+		TextString = "let <#n#> = <#!a!#>";
+		CompletionPrefix = let;
+	},
+	
+	{
+		Identifier = haskell.letin;
+		BasedOn = haskell;
+		IsMenuItem = YES;
+		Name = "Let In Statement";
+		TextString = "let <#n#> = <#!a!#> in <#...#>";
+		CompletionPrefix = letin;
+	},
+	
+	{
+		Identifier = haskell.import;
+		BasedOn = haskell;
+		IsMenuItem = YES;
+		Name = "Import Module";
+		TextString = "import <#!module!#>";
+		CompletionPrefix = import;
+	},
+	
+	{
+		Identifier = haskell.typesig;
+		BasedOn = haskell;
+		IsMenuItem = YES;
+		Name = "Type Signature";
+		TextString = "<#!expr!#> :: <#signature#>";
+		CompletionPrefix = "type";
+	},
+	
+	{
+		Identifier = haskell.where;
+		BasedOn = haskell;
+		IsMenuItem = YES;
+		Name = "Where";
+		TextString = "\n\twhere\n\t<#function#> <#args#> = <#!expr!#>";
+		CompletionPrefix = "where";
+	},
+	
+	{
+		Identifier = haskell.function;
+		BasedOn = haskell;
+		IsMenuItem = YES;
+		Name = "Function Definition";
+		TextString = "<#!name!#> :: <#signature#>\n<#!name!#> <#args#> = undefined";
+		CompletionPrefix = "function";
+	},
+
+//	{
+//		Identifier = haskell.statement;
+//		BasedOn = haskell;
+//		TextString = "$(Statement)=$(Value)";
+//	},
+//
+//	{
+//		Identifier = haskell.statement.let;
+//		BasedOn = haskell.statement;
+//		Name = "Let Statement";
+//		IsMenuItem = YES;
+//		Statement = "let";
+//		CompletionPrefix = b;
+//	},
+//
+)

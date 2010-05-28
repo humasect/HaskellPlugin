@@ -1,0 +1,65 @@
+/*
+	Haskell.pblangspec - HaskellPlugin
+	Copyright 2006 Lyndon Tremblay.
+	Distributed under the GPL licence.
+*/
+(
+	{
+		Identifier = cabal;
+		Name = "Cabal";
+		Description = "Cabal";
+		BasedOn = "pbx_root_language";
+		SourceScannerClassName = PBXLabelSourceScanner;   // or C
+		SupportsIndentation = NO;
+		Indentation = {
+		};
+		SyntaxColoring = {
+			CaseSensitive = NO;
+			UnicodeSymbols = NO;
+			IndexedSymbols = NO;
+			CommentsCanBeNested = NO;
+			IdentifierStartChars = "_";
+			IdentifierChars = "_";
+			MultiLineComment = (
+			);
+			SingleLineComment = ( "#" );
+			//DocComment = "-- |";         // and "-- ^"  !!
+			//DocCommentKeywords = ();
+
+			String = (
+				//( "\"", "\"" ),
+				( ":", "\n" )
+			);
+			EscapeCharacter = "";
+			//Character = (
+			//	( "'", "'" )
+			//);
+			Keywords = (
+				"Name",
+				"Version",
+				"Description",
+				"License",
+				"License-file",
+				"Author",
+				"Maintainer",
+				"Build-Depends",
+				"Executable",
+				"Main-is",
+				"ghc-options",
+				"Frameworks",
+				"Hs-Source-Dirs",
+				"Exposed-Modules",
+				"Homepage",
+				"Synopsis",
+				"Other-Modules"
+			);
+			AltKeywords = (
+			);
+			
+	//		PreprocessorKeywordStart = "";
+	//		PreprocessorKeywords = (
+	//		);
+
+		};
+	}
+)

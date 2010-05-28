@@ -1,0 +1,5 @@
+{
+	MainTemplateFile = "Module.hsc";
+	//CounterpartTemplateFile = "class.h";
+	Description = "A Haskell C module file.";
+}

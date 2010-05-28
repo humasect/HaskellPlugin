@@ -1,0 +1,60 @@
+/*
+	Haskell.pbprodspec - HaskellPlugin
+	Copyright 2006 Lyndon Tremblay.
+	Distributed under the GPL licence.
+*/
+(
+	// Haskell Tool (normal Unix command-line executable)
+	{
+		Identifier = org.glasgow.haskell.product-type.tool;
+		Class = HYHaskellProductType;
+		Name = "Haskell Tool";
+		Description = "Haskell command-line tool";
+		//Image name for inactive target is <IconNamePrefix>
+		//Image name for active target is <IconNamePrefix>Active
+		IconNamePrefix = "TargetExecutable";
+		DefaultTargetName = "Haskell Tool";
+		DefaultBuildProperties = {
+			//ARCHS = "ocaml";
+			VALID_ARCHS = "ppc i386";
+			//GHC_OUTPUT_TYPE = EXEC;
+            FULL_PRODUCT_NAME = "$(EXECUTABLE_PREFIX)$(PRODUCT_NAME)$(EXECUTABLE_SUFFIX)";
+            EXECUTABLE_PREFIX = "";
+            EXECUTABLE_SUFFIX = "";
+			INSTALL_PATH = "$(HOME)/bin";
+            Name = "$(FULL_PRODUCT_NAME)";
+		};
+		AllowedBuildPhaseTypes = ( Sources );
+		PackageTypes = (
+			org.glasgow.haskell.package-type.executable  // default
+		);
+	},
+	
+	// Haskell library
+	{
+		Identifier = org.glasgow.haskell.product-type.library;
+		Class = HYHaskellProductType;
+		Name = "Haskell Library";
+		Description = "Haskell static library";
+		//Image name for inactive target is <IconNamePrefix>
+		//Image name for active target is <IconNamePrefix>Active
+		IconNamePrefix = "TargetPlugin";
+		DefaultTargetName = "Haskell static Library";
+		DefaultBuildProperties = {
+			//ARCHS = "ocaml";
+			VALID_ARCHS =  "ppc i386";
+			//GHC_OUTPUT_TYPE = LIB;
+            FULL_PRODUCT_NAME = "$(EXECUTABLE_PREFIX)$(PRODUCT_NAME)$(EXECUTABLE_SUFFIX)";
+            EXECUTABLE_PREFIX = "libHS"; //"";
+            EXECUTABLE_SUFFIX = ".a";
+			//PUBLIC_HEADERS_FOLDER_PATH = "$(HOME)/Library/OCaml/";
+			//PRIVATE_HEADERS_FOLDER_PATH = "$(HOME)/Library/OCaml/";
+			INSTALL_PATH = "$(HOME)/Library/Haskell/";
+            Name = "$(FULL_PRODUCT_NAME)";
+		};
+		AllowedBuildPhaseTypes = ( Sources );
+		PackageTypes = (
+			org.glasgow.haskell.package-type.bytecode-library   // default
+		);
+	},
+)

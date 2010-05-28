@@ -1,0 +1,132 @@
+/*
+	Haskell.pblangspec - HaskellPlugin
+	Copyright 2006 Lyndon Tremblay.
+	Distributed under the GPL licence.
+*/
+(
+
+	{
+		Identifier = haskell;
+		Name = "Haskell";
+		Description = "Haskell";
+		BasedOn = "pbx_root_language";
+		SourceScannerClassName = PBXCSourceScanner;
+		SupportsIndentation = NO;
+		Indentation = {
+		};
+		SyntaxColoring = {
+			CaseSensitive = YES;
+			UnicodeSymbols = NO;
+			IndexedSymbols = YES;
+			CommentsCanBeNested = YES;
+			IdentifierStartChars = "_";
+			IdentifierChars = "_";
+			MultiLineComment = (
+				( "{-", "-}" ),
+//				( "{-#", "#-}" )
+			);
+			SingleLineComment = ( "--" );
+			DocComment = "-- |";         // and "-- ^"  !!
+			DocCommentKeywords = ();
+
+			String = (
+				( "\"", "\"" ),
+				( "`", "`" )
+			);
+			EscapeCharacter = "\\";
+			//Character = (
+			//	( "'", "'" )
+			//);
+			Keywords = (
+				"let", "in", "otherwise",
+				"catch", "error", "throw",
+				"maybe", "when", "unless", "either",
+				"import", "hiding", "qualified", "as",
+				"module", "where",
+				"type",	"data", "newtype", "instance", "class", "deriving",
+				"do", "return", "undefined",
+				"case", "of",
+				"forall", "exists",
+				"if", "then", "else",
+				 "Bool", "True", "False", "Just", "Nothing", "Left", "Right", "Maybe", "Either",
+				"infixr", "infixl",
+				"IO", "IORef", "Monad", "MVar",
+				"Int", "String", "Char", "Float", "Double", "Integer", "Num", "Eq",
+				"foreign", "ccall", "safe", "unsafe", "export",
+				"Ptr", "FunPtr", "IntPtr", "WordPtr", "StablePtr", "ForeignPtr",
+				"CInt", "CDouble", "CFloat", "CString",
+				"CChar", "CUChar", "CWchar", "CULong", "CLLong", "CUInt",
+			);
+			AltKeywords = (
+				">>", "<<", ">>=", "<<=", "->", "<-", "()", "::", "[]",
+				//"map", "mapM", "mapM_",
+				//"filter", "filterM", "filterM_",
+				//"concat", "while", "take", "takeWhile",
+				//"zip", "unzip", "flip",
+
+				//"get", "put",
+				//"liftIO", "liftM",
+				//"yield"
+			);
+			
+	//		PreprocessorKeywordStart = "";
+	//		PreprocessorKeywords = (
+	//		);
+
+		};
+	},
+	
+	{
+		Identifier = haskell.literal;
+		Name = "Literal Haskell";
+		BasedOn = "haskell";
+		SourceScannerClassName = PBXCSourceScanner;
+		SupportsIndentation = NO;
+		Indentation = {
+		};
+		SyntaxColoring = {
+
+			SingleLineComment = ( "--", "%" );
+
+//			Keywords = (
+//			);
+//			AltKeywords = (
+//			);
+
+			PreprocessorKeywordStart = "\\";
+			PreprocessorKeywords = (
+				"begin", "code", "end", "section",
+			);
+		};
+	},
+
+	{
+		Identifier = haskell.c;
+		Name = "Haskell C";
+		BasedOn = "haskell";
+		SourceScannerClassName = PBXCSourceScanner;
+		SupportsIndentation = NO;
+		Indentation = {
+		};
+		SyntaxColoring = {
+			Keywords = (
+				"const", "const_str", "peek", "poke", "ptr", "offset", "size", "enum",
+			);
+			AltKeywords = (
+			);
+
+			PreprocessorKeywordStart = "#";
+			PreprocessorKeywords = (
+				"include", "define", "let", "def",
+				"if", "ifdef", "ifndef", "elif", "else", "endif",
+				"error", "warning",
+				"const", "const_str",
+				"type",
+				"peek", "poke",
+				"ptr", "offset", "size",
+				"enum",
+			);
+		};
+	},
+
+)

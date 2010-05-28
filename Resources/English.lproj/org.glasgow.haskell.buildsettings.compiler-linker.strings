@@ -1,0 +1,41 @@
+/*
+	fr.inria.ocaml.buildsettings.compiler-linker.strings - OCamlPlugin
+	Copyright 2005-2006 Damien Bobillot.
+	Distributed under the GPL licence.
+	
+	Objective Caml Compiler & Linker option descriptions
+*/
+
+/* Language */
+"[GHC_THREADED]-name" = "Threaded";
+"[GHC_THREADED]-description" = "Use threading. [GHC_THREADED, -threaded]";
+//"[OTHER_OCAMLC_FLAGS]-name" = "Other OCaml flags";
+//"[OTHER_OCAMLC_FLAGS]-description" = "Space-separated list of additional flags to pass to the compiler for Objective-Caml files. Be sure to backslash-escape any arguments that contain spaces or special characters (e.g. path names that may contain spaces). Use this setting if Xcode does not already provide UI for a particular Objective-Caml compiler flag. [OTHER_OCAMLC_FLAGS]";
+
+/* Code generation */
+//"[OCAML_DEBUG]-name" = "Debugging informations";
+//"[OCAML_DEBUG]-description" = "Add debugging information while compiling and linking. This option is required in order to be able to debug the program with ocamldebug. (bytecode only) [OCAML_DEBUG, -g]";
+
+/* Linker */
+"[GHC_OUTPUT_TYPE]-name" = "Output type";
+"[GHC_OUTPUT_TYPE]-description" = "The type of output file [GHC_OUTPUT_TYPE]
+
+Executable [EXEC] - Standard executable.
+
+Static Haskell Library [LIB, -a] - Build a library (libHS*.a file) with the given object file, instead of linking them into an executable file.
+";
+
+//Mach-O Object File [LD_LIB, -output-obj] - Cause the linker to produce a C object file instead of a bytecode executable file. This is useful to wrap Caml code as a C library, callable from any C program.";
+//"[OCAML_OUTPUT_TYPE]-value-[EXEC]" = "Executable";
+//"[OCAML_OUTPUT_TYPE]-value-[STANDALONE_EXEC]" = "Standalone Executable";
+//"[OCAML_OUTPUT_TYPE]-value-[LIB]" = "Static OCaml Library";
+//"[OCAML_OUTPUT_TYPE]-value-[LD_LIB]" = "Mach-O Object File";
+//
+//"[OCAML_THREAD_MODEL]-name" = "Thread Model";
+//"[OCAML_THREAD_MODEL]-description" = "Thread model to use when linking. [OCAML_THREAD_MODEL]
+//
+//No Threads [NONE] - Program do not use threads.
+//
+//System Threads [SYSTEM, -thread] - Link multithreaded programs, in combination with the system threads library.
+//
+//VM Threads [VM, -vmthread] - Link multithreaded programs, in combination with the VM-level threads library.";

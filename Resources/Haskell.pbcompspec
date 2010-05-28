@@ -1,0 +1,46 @@
+/*
+	Haskell.pbcompspec - HaskellPlugin
+	Copyright 2006 Lyndon Tremblay.
+	Distributed under the GPL licence.
+*/
+(
+	{
+		Identifier = org.glasgow.haskell.compiler;
+		Class = HYCompilerSpecificationHaskell;
+		Name = "GHC";
+		Description = "Glasgow Haskell Compiler";
+		Version = "6.6";
+		Vendor = "Glasgow";
+		Languages = (haskell);
+		FileTypes = (sourcecode.haskell);
+		Architectures = (ppc, i386);
+		ExecPath = "/usr/local/bin/ghc";
+		CommandOutputParser = HYHaskellCommandOutputParser;
+		Options = {
+			// Language
+			GHC_THREADED = {
+				CommandLineArgs = { NO = (); YES = ("-threaded"); };
+			};
+//			OTHER_OCAMLC_FLAGS = {
+//				Type = stringlist;
+//				CommandLineArgs = ("$(value)");
+//			};
+			
+			// code generation
+			//OCAML_DEBUG = {
+			//	CommandLineArgs = { NO = (); YES = (-g); };
+			//	Architectures = (ocaml);
+			//};
+			
+			// Search paths
+			//OCAML_HEADER_SEARCH_PATHS = {
+			//	Type = stringlist;
+			//	CommandLineArgs = (-I, "$(value)");
+			//};
+
+			GHC_HACK_TO_FORCE_XCODE_SHOWING_THIS_SETTINGS = {
+				Category = Hack;
+			};
+		};
+	}
+)

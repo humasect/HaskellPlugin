@@ -1,0 +1,12 @@
+/*
+	Haskell.xcbuildrules - HaskellPlugin
+	Copyright 2006-2007 Lyndon Tremblay.
+	Distributed under the GPL licence.
+*/
+(
+	{
+		Name = "Haskell source rule";
+		FileType = "sourcecode.haskell";
+		CompilerSpec = "org.glasgow.haskell.compiler";
+	}
+)

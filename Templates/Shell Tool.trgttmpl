@@ -1,0 +1,14 @@
+{
+	Class = Native;
+	ProductType = "org.glasgow.haskell.product-type.tool";
+	Description = "Target for building a command-line tool with Haskell.";
+	CustomBuildSettings = {
+		INSTALL_PATH = "$(HOME)/bin";
+		PRODUCT_NAME = "«PRODUCTNAME»";
+	};
+	BuildPhases = (
+		{
+			Class = Sources;
+		},
+	);
+}

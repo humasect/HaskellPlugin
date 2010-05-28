@@ -1,0 +1,24 @@
+Name:                «PROJECTNAME»
+Version:             0.0
+Description:         «PROJECTNAME» project description.
+Synopsis:            «PROJECTNAME» project synopsis.
+Homepage:            http://localhost/
+License:             AllRightsReserved
+Copyright:           Copyright «YEAR» «ORGANIZATIONNAME». All rights reserved.
+License-file:        LICENSE
+Author:              «FULLUSERNAME»
+Maintainer:          «USERNAME»@email
+Build-Depends:       base mtl
+ghc-options:         -threaded +RTS -N 2 -RTS
+Extensions:          CPP ForeignFunctionInterface
+Includes:            
+C-Sources:           
+Extra-Libraries:     
+Extra-Lib-Dirs:      
+cc-options:          -Wall
+ld-options:          
+Frameworks:          
+Exposed-Modules:     MyModule1 MyModule2
+Hs-Source-Dirs:      Source
+Other-Modules:       
+Data-Files:          Info.plist

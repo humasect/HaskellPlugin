@@ -1,0 +1,11 @@
+- Text macros
+
+- Dependency calculation (import modules)
+
+- Application project template
+
+- Bundle project template
+
+- ALMOST works for universal binary =) ... likely needs a seperate ppc install of ghc. 
+
+- Need to get the compiler and linker flags. Then we are releasable. 

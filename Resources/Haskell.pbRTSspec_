@@ -1,0 +1,12 @@
+/*
+	Haskell.pbRTSspec - HaskellPlugin
+	Copyright 2006-2007 Lyndon Tremblay.
+	Distributed under the GPL licence.
+*/
+(
+	{
+		Identifier = "rts.haskell";
+		Name = "Haskell";
+		InfoPlistKey = "";
+	}
+)

@@ -1,0 +1,14 @@
+{
+	Class = Native;
+	ProductType = "org.glasgow.haskell.product-type.library";
+	Description = "Target for building a library with Haskell.";
+	CustomBuildSettings = {
+		INSTALL_PATH = "$(HOME)/Library/Haskell/";
+		PRODUCT_NAME = "«PRODUCTNAME»";
+	};
+	BuildPhases = (
+		{
+			Class = Sources;
+		},
+	);
+}

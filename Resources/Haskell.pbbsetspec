@@ -1,0 +1,24 @@
+(
+    {
+        Identifier = "org.glasgow.haskell.buildsettings.compiler-linker"; 
+        Name = "Haskell Settings"; 
+        Description = "Haskell Compiler & Linker"; 
+		
+        Options = {
+            GHC_DEBUG = {DefaultValue = NO; Type = bool; }; 
+            GHC_THREADED = {DefaultValue = YES; Type = bool; }; 
+        }; 
+
+		OptionCategories = (
+            {IconName = "PBX-option-build"; Name = Language; Options = (GHC_THREADED); }, 
+            {
+                IconName = "PBX-option-build"; 
+                Name = "Code Generation"; 
+                Options = (GHC_DEBUG); 
+            }, 
+            {IconName = "PBX-option-build"; Name = Linker; Options = (); }, 
+            {IconName = "PBX-option-build"; Name = "Search Paths"; Options = (); }, 
+            {IconName = "PBX-option-warning"; Name = Warnings; Options = (); }
+        ); 
+    }
+)

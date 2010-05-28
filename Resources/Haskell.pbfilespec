@@ -1,0 +1,73 @@
+/*
+	Haskell.pbfilespec - HaskellPlugin
+	Copyright 2006 Lyndon Tremblay.
+	Distributed under the GPL licence.
+*/
+(
+	// source files
+	{
+		Identifier = sourcecode.haskell;
+		BasedOn = sourcecode;
+		Name = "Haskell Source";
+		ComputerLanguage = haskell;
+		AppliesToBuildRules = yes;
+	},
+	{
+		Identifier = sourcecode.haskell.hs;
+		BasedOn = sourcecode.haskell;
+		Name = "Haskell Source File";
+		Extensions = (hs);
+		AppliesToBuildRules = yes;
+	},
+	{
+		Identifier = sourcecode.haskell.lhs;
+		BasedOn = sourcecode.haskell;
+		Name = "Literal Haskell Source File";
+		Extensions = (lhs);
+		ComputerLanguage = haskell.literal;
+		AppliesToBuildRules = no;
+	},
+	{
+		Identifier = sourcecode.haskell.hsc;
+		BasedOn = sourcecode.haskell;
+		Name = "Haskell C Source File";
+		Extensions = (hsc);
+		AppliesToBuildRules = no;
+		ComputerLanguage = haskell.c;
+	},
+
+	// cabal
+	{
+		Identifier = sourcecode.cabal;
+		BasedOn = sourcecode;
+		Name = "Cabal Package Description";
+		Extensions = (cabal);
+		AppliesToBuildRules = no;
+	},
+
+	// compiled files
+	{
+		Identifier = compiled.haskell;
+		Name = "Haskell generic compiled type";
+		BasedOn = compiled.mach-o.objfile;
+	},
+//	{
+//		Identifier = compiled.haskell.objfile;
+//		BasedOn = compiled.haskell;
+//		Name = "Haskell object files";
+//		//Extensions = (cmo);
+//		AppliesToBuildRules = yes;
+//	}
+
+	// executable program
+
+//	{
+//		Identifier = compiled.haskell.executable;
+//		BasedOn = compiled;
+//		Name = "Haskell Script File";
+//		MagicWord = ("#!/usr/bin/env runhaskell", "#!/usr/local/bin/runghc", "#!/usr/bin/runghc");
+//		IsExecutable = YES;
+//		AppliesToBuildRules = no;
+//	},
+	
+)
